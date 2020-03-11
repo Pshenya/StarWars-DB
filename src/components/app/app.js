@@ -38,7 +38,6 @@ export default class App extends Component {
                                 <Route path="/people/:id?" component={PeoplePage}/>
                                 <Route path="/planets" component={PlanetPage}/>
                                 <Route path="/starships/:id?" component={StarshipPage}></Route>
-                                <Route render={() => <h2>Page not found</h2>}/>
                             </Switch>
 
                         </div>
