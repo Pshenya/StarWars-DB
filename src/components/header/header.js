@@ -22,6 +22,9 @@ const Header = () => {
                 <li>
                     <Link to="/starships/">Starships</Link>
                 </li>
+                <li style={{marginLeft: '900px'}}>
+                    <a href="#">EN</a>
+                </li>
             </ul>
         </div>
     );

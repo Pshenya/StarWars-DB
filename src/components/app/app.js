@@ -22,7 +22,7 @@ export default class App extends Component {
     state = {
         isLoggedIn: false,
         backgroundColor: '#272b30'
-    }
+    };
 
     render() {
         return (
@@ -37,7 +37,7 @@ export default class App extends Component {
                                        exact/>
                                 <Route path="/people/:id?" component={PeoplePage}/>
                                 <Route path="/planets" component={PlanetPage}/>
-                                <Route path="/starships/:id?" component={StarshipPage}></Route>
+                                <Route path="/starships/:id?" component={StarshipPage}/>
                             </Switch>
 
                         </div>

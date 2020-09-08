@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76447b2e-343b-4130-8b03-917cfa289da1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/swapi-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/swapi-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +43,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,20 +54,20 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/app" />
-      <recent name="$PROJECT_DIR$/src/components/sw-components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/starships-details" />
       <recent name="$PROJECT_DIR$/src/components/random-planet" />
       <recent name="$PROJECT_DIR$/src/components/planet-details" />
       <recent name="$PROJECT_DIR$/src/components/person-details" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/app" />
+      <recent name="$PROJECT_DIR$/src/components/sw-components" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,7 +108,26 @@
       <workItem from="1582570342867" duration="630000" />
       <workItem from="1582573283537" duration="10000" />
       <workItem from="1582626859013" duration="494000" />
-      <workItem from="1583942754157" duration="4586000" />
+      <workItem from="1583942754157" duration="5463000" />
+      <workItem from="1586796270138" duration="430000" />
+      <workItem from="1586865060044" duration="13000" />
+      <workItem from="1586878756423" duration="79000" />
+      <workItem from="1587129295466" duration="7913000" />
+      <workItem from="1587476221412" duration="17000" />
+      <workItem from="1587823569284" duration="7325000" />
+      <workItem from="1588164591843" duration="597000" />
+      <workItem from="1588778915234" duration="905000" />
+      <workItem from="1588845554598" duration="556000" />
+      <workItem from="1588889601407" duration="209000" />
+      <workItem from="1589360414913" duration="237000" />
+      <workItem from="1589981389931" duration="1193000" />
+      <workItem from="1591268646197" duration="523000" />
+      <workItem from="1591272921502" duration="904000" />
+      <workItem from="1591297565812" duration="9000" />
+      <workItem from="1591299604808" duration="68000" />
+      <workItem from="1591360069838" duration="729000" />
+      <workItem from="1594206338669" duration="589000" />
+      <workItem from="1594483546442" duration="115000" />
     </task>
     <servers />
   </component>
@@ -147,17 +171,17 @@
     <state width="907" height="248" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1580323086949" />
     <state width="907" height="248" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1580222515452" />
     <state width="907" height="248" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1580670489919" />
-    <state x="285" y="121" key="SettingsEditor" timestamp="1580478563693">
+    <state x="285" y="121" key="SettingsEditor" timestamp="1586796592732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="285" y="121" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580478563693" />
+    <state x="285" y="121" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586796592732" />
     <state x="166" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580418539447">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="166" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1580418539447" />
-    <state x="129" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580733942739">
+    <state x="129" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587825434555">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="129" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1580733942739" />
+    <state x="129" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587825434555" />
   </component>
 </project>
